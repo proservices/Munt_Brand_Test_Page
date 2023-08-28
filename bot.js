@@ -21,3 +21,15 @@
     deploymentId: "d8015269-6c55-4bf8-bfc8-027b12dbc473",
   }
 );
+
+const clearCacheButton = document.getElementById("clearCacheButton");
+const instructions = document.getElementById("instructions");
+const closeButton = document.getElementById("closeButton");
+
+clearCacheButton.addEventListener("click", () => {
+  instructions.style.display = "block";
+});
+
+closeButton.addEventListener("click", () => {
+  instructions.style.display = "none";
+});
