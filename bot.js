@@ -23,13 +23,13 @@
 );
 
 const clearCacheButton = document.getElementById("clearCacheButton");
-const instructions = document.getElementById("instructions");
+const instructionsContainer = document.getElementById("instructionsContainer");
 const closeButton = document.getElementById("closeButton");
 
 clearCacheButton.addEventListener("click", () => {
-  instructions.style.display = "block";
+  instructionsContainer.style.display = "block";
 });
 
 closeButton.addEventListener("click", () => {
-  instructions.style.display = "none";
+  instructionsContainer.style.display = "none";
 });

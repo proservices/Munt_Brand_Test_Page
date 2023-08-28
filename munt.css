@@ -2,9 +2,8 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  height: 10vh;
   margin: 0;
-  padding: 50px;
+  padding: 20px;
 }
 
 /* Style for the button */
@@ -21,11 +20,13 @@ body {
   cursor: pointer;
 }
 
-/* Style for the instructions */
-#instructions {
+/* Style for the card container */
+#instructionsContainer {
   display: none;
   margin-top: 20px;
-  padding-top: 15px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 /* Style for the close button */

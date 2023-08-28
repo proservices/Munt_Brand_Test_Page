@@ -8,22 +8,26 @@
         <script src="./bot.js" defer></script>
     </head>
     <body>
-        <div class="holder"> <h1>Munt Brand Test Page</h1>
-            <button id="clearCacheButton">Clear Browser Cache</button></div>
+        <div>
+            <h1>Munt Brand Test Page</h1>
+            <button id="clearCacheButton">Clear Browser Cache</button>
+            <div id="instructionsContainer">
+                <div id="instructions">
+                    <h2>Instructions to Clear Browser Cache:</h2>
+                    <ol>
+                        <li>Open the browser's developer tools.</li>
+                        <li>Navigate to the "Applications" or "Storage" tab.</li>
+                        <li>Find and click on "Local Storage" or "Cache" on the
+                            left-hand menu.</li>
+                        <li>Click the "Clear" button or right-click and select
+                            "Clear All" or "Clear All Local Storage."</li>
+                    </ol>
+                    <p>Refresh the page after clearing the cache.</p>
+                </div>
 
-        <div id="instructions">
-            <h2>Instructions to Clear Browser Cache:</h2>
-            <ol>
-                <li>Open the browser's developer tools.</li>
-                <li>Navigate to the "Applications" or "Storage" tab.</li>
-                <li>Find and click on "Local Storage" or "Cache" on the
-                    left-hand menu.</li>
-                <li>Click the "Clear" button or right-click and select
-                    "Clear All" or "Clear All Local Storage."</li>
-            </ol>
-            <p>Refresh the page after clearing the cache.</p>
+                <button id="closeButton">Close Instructions</button>
+            </div>
 
-            <button id="closeButton">Close Instructions</button>
         </div>
 
     </body>
