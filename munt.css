@@ -7,7 +7,8 @@ body {
 }
 
 /* Style for the button */
-#clearCacheButton {
+/*#clearCacheButton {*/
+Button {
   background-color: #4caf50;
   color: white;
   border: none;
