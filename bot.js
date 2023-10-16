@@ -27,13 +27,13 @@ const clearCacheBtn = document.getElementById("clearCacheBtn");
 const instructionsContainer = document.getElementById("instructionsContainer");
 const closeButton = document.getElementById("closeButton");
 
-clearCacheButton.addEventListener("click", () => {
-  instructionsContainer.style.display = "block";
-});
+// clearCacheButton.addEventListener("click", () => {
+//   instructionsContainer.style.display = "block";
+// });
 
-closeButton.addEventListener("click", () => {
-  instructionsContainer.style.display = "none";
-});
+// closeButton.addEventListener("click", () => {
+//   instructionsContainer.style.display = "none";
+// });
 
 clearCacheBtn.addEventListener("click", () => {
   localStorage.clear()
